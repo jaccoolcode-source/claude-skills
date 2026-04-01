@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# Generated skill outputs (created in other projects, not here)
+konspekt-*.md
+CLAUDE.md
+
+# Build output
+dist/
+.vitepress/dist/
