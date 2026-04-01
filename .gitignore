@@ -26,7 +26,6 @@ secrets.*
 
 # Generated skill outputs (created in other projects, not here)
 konspekt-*.md
-CLAUDE.md
 
 # Build output
 dist/
