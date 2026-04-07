@@ -37,3 +37,4 @@ $ARGUMENTS is replaced with whatever the user typed after the command.
 
 - **`syllabus-collector`** — researches Polish school curriculum (MEN official sources + educational portals), builds a detailed `konspekt-{slug}.md` outline, and generates a `CLAUDE.md` configured for a VitePress learning portal. Designed around a pedagogical tone for sensitive children.
 - **`vitepress-page`** — generates a single VitePress content page or a full section (index + pages + sidebar + nav wired into `config.mjs`) inside an existing VitePress docs project. Reads existing pages to match writing style before generating.
+- **`dockerize`** — analyzes a project (Node.js, Python, Go, Java, static) and generates a production-ready `Dockerfile`, `docker-compose.yml` with Traefik reverse proxy labels, and `.env.example`. Detects companion services (Postgres, Redis) automatically.
